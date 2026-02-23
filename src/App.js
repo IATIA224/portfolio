@@ -259,6 +259,38 @@ function App() {
                 </div>
               </div>
             </div>
+
+            {/* COPY - Calorie Estimator APK project */}
+            <div className="project-card">
+              <div className="project-image">
+                <img src="/caps.png" alt="COPY - Calorie Estimator & Scheduler" className="project-image-img" style={{ objectFit: 'contain' }} />
+                <div className="project-overlay">
+                  <div className="project-links">
+                    {/* direct download of APK hosted in public folder */}
+                    <a href="/app-debug.apk" className="project-link" title="Download APK">
+                      <i className="fas fa-download"></i>
+                    </a>
+                    <a href="https://github.com/IATIA224/Calculator" target="_blank" rel="noopener noreferrer" className="project-link" title="GitHub">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="project-content">
+                <h3>COPY - Calorie Estimator & Scheduler</h3>
+                <p className="project-description">
+                  A comprehensive mobile app for estimating calories from food images, tracking daily intake, and scheduling meals intelligently.
+                </p>
+                <p className="project-highlight">
+                  <i className="fas fa-star"></i> AI-powered food recognition with real-time calorie calculation and meal scheduling features.
+                </p>
+                <div className="project-tags">
+                  <span className="tag">Android</span>
+                  <span className="tag">Food Tracking</span>
+                  <span className="tag">Scheduler</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
