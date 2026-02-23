@@ -260,10 +260,10 @@ function App() {
               </div>
             </div>
 
-            {/* COPY - Calorie Estimator APK project */}
+            {/* Capy - Calorie Estimator APK project */}
             <div className="project-card">
               <div className="project-image">
-                <img src="/caps.png" alt="COPY - Calorie Estimator & Scheduler" className="project-image-img" style={{ objectFit: 'contain' }} />
+                <img src="/caps.png" alt="Capy - Calorie Estimator & Scheduler" className="project-image-img" style={{ objectFit: 'contain' }} />
                 <div className="project-overlay">
                   <div className="project-links">
                     {/* direct download of APK hosted in public folder */}
@@ -277,7 +277,7 @@ function App() {
                 </div>
               </div>
               <div className="project-content">
-                <h3>COPY - Calorie Estimator & Scheduler</h3>
+                <h3>Capy - Calorie Estimator & Scheduler</h3>
                 <p className="project-description">
                   A comprehensive mobile app for estimating calories from food images, tracking daily intake, and scheduling meals intelligently.
                 </p>
