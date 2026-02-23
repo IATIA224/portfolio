@@ -266,8 +266,8 @@ function App() {
                 <img src="/caps.png" alt="Capy - Calorie Estimator & Task Manager" className="project-image-img" style={{ objectFit: 'contain' }} />
                 <div className="project-overlay">
                   <div className="project-links">
-                    {/* direct download of APK hosted in public folder */}
-                    <a href="/app-debug.apk" className="project-link" title="Download APK">
+                    {/* Direct link to GitHub release APK */}
+                    <a href="https://github.com/IATIA224/Calculator/releases/latest/download/app-debug.apk" className="project-link" title="Download APK" download>
                       <i className="fas fa-download"></i>
                     </a>
                     <a href="https://github.com/IATIA224/Calculator" target="_blank" rel="noopener noreferrer" className="project-link" title="GitHub">
