@@ -267,7 +267,7 @@ function App() {
                 <div className="project-overlay">
                   <div className="project-links">
                     {/* Direct link to GitHub release APK */}
-                    <a href="https://github.com/IATIA224/Calculator/releases/download/v1.0/app-debug.apk" className="project-link" title="Download APK" download>
+                    <a href="https://github.com/IATIA224/Calculator/releases/latest/download/app-debug.apk" className="project-link" title="Download APK" download>
                       <i className="fas fa-download"></i>
                     </a>
                     <a href="https://github.com/IATIA224/Calculator" target="_blank" rel="noopener noreferrer" className="project-link" title="GitHub">
