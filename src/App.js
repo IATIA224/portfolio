@@ -260,10 +260,10 @@ function App() {
               </div>
             </div>
 
-            {/* Capy - Calorie Estimator APK project */}
+            {/* Capy - Calorie Estimator & Task Manager APK project */}
             <div className="project-card">
               <div className="project-image">
-                <img src="/caps.png" alt="Capy - Calorie Estimator & Scheduler" className="project-image-img" style={{ objectFit: 'contain' }} />
+                <img src="/caps.png" alt="Capy - Calorie Estimator & Task Manager" className="project-image-img" style={{ objectFit: 'contain' }} />
                 <div className="project-overlay">
                   <div className="project-links">
                     {/* direct download of APK hosted in public folder */}
@@ -277,17 +277,17 @@ function App() {
                 </div>
               </div>
               <div className="project-content">
-                <h3>Capy - Calorie Estimator & Scheduler</h3>
+                <h3>Capy - Calorie Estimator & Task Manager</h3>
                 <p className="project-description">
-                  A comprehensive mobile app for estimating calories from food images, tracking daily intake, and scheduling meals intelligently.
+                  A mobile app that combines calorie estimation from food images with a weekly task manager. Track calories and organize your to-do list by day of the week.
                 </p>
                 <p className="project-highlight">
-                  <i className="fas fa-star"></i> AI-powered food recognition with real-time calorie calculation and meal scheduling features.
+                  <i className="fas fa-star"></i> AI-powered food recognition for calorie tracking plus organized task management for daily planning.
                 </p>
                 <div className="project-tags">
                   <span className="tag">Android</span>
                   <span className="tag">Food Tracking</span>
-                  <span className="tag">Scheduler</span>
+                  <span className="tag">Task Manager</span>
                 </div>
               </div>
             </div>
