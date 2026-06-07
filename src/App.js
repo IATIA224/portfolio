@@ -81,7 +81,7 @@ function App() {
           <h1 className="hero-name">Jorvince Soriano.</h1>
           <h2 className="hero-title">Full-Stack Developer & IT Operations Specialist.</h2>
           <p className="hero-description">
-            I build intelligent web systems and manage secure enterprise infrastructures.
+            I build web, mobile, and standalone software solutions while managing secure enterprise infrastructures.
           </p>
           <div className="hero-cta">
             <button className="btn-primary" onClick={() => scrollToSection('projects')}>
@@ -119,18 +119,28 @@ function App() {
             </div>
             <div className="about-text">
               <p className="about-bio">
-                I'm a passionate <span className="highlight">Full-Stack Developer</span> and 
+                I'm a passionate <span className="highlight">Full-Stack Developer</span>, 
+                <span className="highlight"> Mobile App Developer</span>, and 
                 <span className="highlight"> IT Operations Specialist</span> with a strong foundation 
-                in building intelligent web applications and managing enterprise infrastructures.
+                in building web, mobile, and desktop software solutions.
               </p>
               <p className="about-bio">
-                Currently pursuing my <span className="highlight">BS in Computer Science</span> at 
-                <span className="highlight"> Taguig City University</span>, I combine academic excellence 
-                with hands-on experience in modern web technologies and IT operations.
+                I graduated from <span className="highlight">Taguig City University</span> with my 
+                <span className="highlight">BS in Computer Science</span> on <span className="highlight">June 16, 2026</span>, 
+                earning <span className="highlight">Cum Laude</span> honors with a <span className="highlight">GWA of 1.41</span>.
               </p>
               <div className="achievements">
-                <h3>Achievements</h3>
+                <h3>Qualifications & Achievements</h3>
                 <div className="badges-container">
+                  <div className="badge">
+                    <div className="badge-icon">
+                      <i className="fas fa-graduation-cap"></i>
+                    </div>
+                    <div className="badge-content">
+                      <h4>Cum Laude, GWA 1.41</h4>
+                      <p>Taguig City University | June 16, 2026</p>
+                    </div>
+                  </div>
                   <div className="badge">
                     <div className="badge-icon">
                       <i className="fas fa-award"></i>
@@ -178,17 +188,40 @@ function App() {
             </div>
             <div className="skill-card">
               <div className="skill-icon">
+                <i className="fas fa-mobile-alt"></i>
+              </div>
+              <h3>Android / APK Development</h3>
+              <div className="skill-tags">
+                <span className="tag">Java</span>
+                <span className="tag">XML</span>
+                <span className="tag">Android Studio</span>
+                <span className="tag">APK</span>
+              </div>
+            </div>
+            <div className="skill-card">
+              <div className="skill-icon">
+                <i className="fab fa-python"></i>
+              </div>
+              <h3>Standalone Software Development</h3>
+              <div className="skill-tags">
+                <span className="tag">Python</span>
+                <span className="tag">.exe</span>
+                <span className="tag">SQLite</span>
+                <span className="tag">Desktop Apps</span>
+              </div>
+            </div>
+            <div className="skill-card">
+              <div className="skill-icon">
                 <i className="fas fa-tools"></i>
               </div>
               <h3>IT Operations & Tools</h3>
               <div className="skill-tags">
                 <span className="tag">Firebase</span>
-                <span className="tag">Android Studio</span>
                 <span className="tag">GitHub</span>
                 <span className="tag">VS Code</span>
+                <span className="tag">Deployment</span>
               </div>
             </div>
-
           </div>
         </div>
       </section>
