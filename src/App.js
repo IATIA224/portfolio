@@ -43,11 +43,11 @@ function App() {
           </div>
           
           <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
-            <a onClick={() => scrollToSection('about')}>About</a>
-            <a onClick={() => scrollToSection('skills')}>Skills</a>
-            <a onClick={() => scrollToSection('projects')}>Projects</a>
-            <a onClick={() => scrollToSection('experience')}>Experience</a>
-            <a onClick={() => scrollToSection('contact')}>Contact</a>
+            <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a>
+            <a href="#skills" onClick={(e) => { e.preventDefault(); scrollToSection('skills'); }}>Skills</a>
+            <a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Projects</a>
+            <a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Experience</a>
+            <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a>
             <a href="/data/Soriano_Jorvince_Resume.pdf" className="btn-resume" download="Soriano_Jorvince_Resume.pdf">
               <i className="fas fa-download"></i> Download Resume
             </a>
